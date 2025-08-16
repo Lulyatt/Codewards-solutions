@@ -1,0 +1,59 @@
+// In javascript, Array is one of basic data types. To define an empty array, you can use let arr=new Array() or let arr=[]
+
+// Array has an attribute: length, if there is an array named arr, using arr.length to know how many elements are contained in the array.
+
+// Each element in the array has an index, use arr[index] to get the value of element.
+
+// index always start from 0, so the first element of array is arr[0], the last element of array is arr[arr.length-1].
+
+// If we want to add new elements to the array, you can use the array method: push(). It can add an element to the end of the array. Instead, if we want to remove the last element of the array, you can use the array method: pop().
+
+// My code:
+
+function getLength(arr){
+2
+  //return length of arr
+3
+  return arr.length
+4
+}
+5
+function getFirst(arr){
+6
+  //return the first element of arr
+7
+  return arr[0]
+8
+}
+9
+function getLast(arr){
+10
+  //return the last element of arr
+11
+  return arr[arr.length-1]
+12
+}
+13
+function pushElement(arr){
+14
+  var el=1;
+15
+  //push el to arr
+16
+  
+17
+  arr.push(el)
+18
+  return arr
+19
+}
+20
+function popElement(arr){
+21
+  //pop an element from arr
+22
+  arr.pop()
+23
+  return arr
+24
+}
