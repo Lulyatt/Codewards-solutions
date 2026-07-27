@@ -9,5 +9,5 @@
 // My code:
 
 function opposite(number) {
-  return number * (0-1)
+  return number * (-1)
 }
